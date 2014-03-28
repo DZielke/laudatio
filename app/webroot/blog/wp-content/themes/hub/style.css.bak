@@ -1,0 +1,249 @@
+/*  
+Theme Name: Humboldt-Universität zu Berlin (Haupt)
+Theme URI: http://www.hu-berlin.de
+Description: Humboldt-Universität zu Berlin "Haupt"
+Author: Andreas Grüner
+
+Version: 0.2
+*/
+
+
+html { font-size:100.01%; }
+
+/**************** Body *********************/
+*{margin:0;padding:0;}
+body {font-size: 80%;color: #003366;background:#f0f0e8;font-family: Verdana, Helvetica, Arial, sans-serif;}
+#wrapper{background-color:#FFFFFF; min-width:76em; max-width:100em; margin:0em auto;border:1px solid #ccccb2;}
+
+
+/**************** Header *********************/
+#header {height:12.6em; width:100%;}
+#header-top{background-color:#FFFFFF; height:10.8em; width:100%;}
+#header-top-left{width:38%; float:left; height:9em; padding-top:1.8em;}
+#header-top-right{background-color:#FFFFFF; float:right; width:62%; height:9.0em; padding-top:1.8em;}
+#header-top-right-top{height:7.2em; padding-right:1.6em;}
+#header-top-right-top-fr{height:6.2em; }
+#header-top-right-bottom{background-color:#ccd6e0; height:1.8em; width:100%;}
+#header-bottom{height:1.8em;}
+#header-bottom-left{background-color:#036; width:74.07%; height:1.8em; float:left;}
+
+#header-bottom-left #navigation .menu ul.children {
+    display: none;
+}
+
+#header-bottom-right{background-color:#FFFFFF; width:25.93%; height:1.8em; float:right;}
+
+#header-bottom-right-ri{float:right;padding-right:0.8em; }
+#header-bottom-right-ri form{height:1em;padding-top:0.2em;font-size:70%;}
+#header-bottom-right-ri input{height:1em;}
+#searchfield{float:left;width:7em;border-left: 1px solid #7F9CBE; border-top: 1px solid #7F9CBE; border-bottom: 1px solid #7F9CBE; border-right:0;}
+#searchbutton{float:left;width:1em; background-position: center center;border:1px solid #7F9CBE;}
+
+#header-bottom-right-le{color:#003366;float:left;padding-left:1.6em; padding-top:0.4em;}
+
+
+/**************** Main **************************/
+#main{background-color:#FFFFFF; width:100%; float:left;}
+#main-left{background-color:#FFFFFF; float:left; width:19%;}
+#main-right{background-color:#FFFFFF; float:right; width:81%;}
+#main-right-bottom{background-color:#FFFFFF; float:left;width:100%;}
+#main-right-bottom-left{background-color:#FFFFFF; width:74.07%; float:left;}
+#main-right-bottom-right{background-color:#FFFFFF; width:25.93%; float:left;}
+#main-left-top{background-color:#FFFFFF; min-height:7.2em; padding-top:1.8em; width:100%;position:relative;}
+#main-left-top-inner{padding-left:1.6em;min-height:7.2em;list-style-type:none;}
+#main-left-bottom{background-color:#FFFFFF; width:100%;}
+
+#sitedesk-space{visibility:hidden;list-style-type:none}
+#sitedesk-real{list-style-type:none;position:absolute;bottom:0; width:85%;}
+
+.textwidget-fakultaet h1{color:#003366;padding-bottom:0.3em;}
+.textwidget-institut h1{color:#003366;padding-bottom:0.3em; font-weight:bold}
+#textwidget-fakultaet h1{color:#003366;padding-bottom:0.3em;}
+#textwidget-institut h1{color:#003366;padding-bottom:0.3em; font-weight:bold}
+
+.textwidget p {margin: 0; text-align: center;}
+.textwidget {min-height: 1.6em; background-color: #E0E0D1; border-top: 1px solid white;}
+
+#main-left-top-inner h1{font-size:115%;}
+
+#blogtitle h2{padding-bottom:0.5em;}
+
+#main-left-top-inner ul{list-style:none;}
+
+/**************** Navigation *******************/
+#navigation {padding-left:2.3em;padding-top:0.3em;}
+#menu{}
+#menu ul{list-style-type:none; margin: 0;padding: 0;}
+#menu ul li{float:left;overflow: hidden;display: inline; padding-right:1em;height:1.5em;}
+#menu ul li a{color:#FFFFFF;text-decoration: none;}
+#menu ul li a:hover{ color:#FFFFFF;}
+
+.border{border-left:1.5px solid #FFFFFF; height:1em;position:relative;bottom:-0.4em;padding-right:1em;}
+
+/**************** Sidebars *********************/
+#sidebar1{width:100%;  background-color:#FFFFFF;}
+#sidebar1 h2{color: #003366; padding-left:2em; font-size:108%; margin-bottom:0em; font-weight:normal;}
+#sidebar1 ul{list-style-type:none;}
+#sidebar1 ul li{}
+#sidebar1 ul li ul{list-style-type:none;}
+#sidebar1 ul li ul li{font-size:108%;font-weight:normal; border-top:1px solid white; background-color:#e0e0d1; min-height:1.6em; line-height: 1.6em;}
+#sidebar1 ul li ul li a { padding-left: 2em; line-height: 1.4em;}
+#sidebar1 ul li ul li ul {list-style-type:none;}
+#sidebar1 ul li ul li ul li{padding-left: 0; border-top:1px solid white; background-color:#f0f0e8; min-height:1.6em; line-height: 1.6em;}
+#sidebar1 ul li ul li ul li a { padding-left: 1.9em;}
+#sidebar1 ul li ul li ul li ul{list-style-type:none;}
+#sidebar1 ul li ul li ul li ul li{padding-left:0; background-color:#fff; min-height:1.4em; line-height: 1.4em;}
+#sidebar1 .widgettitle{background-color:#cc9; min-height:1.6em; line-height: 1.6em; border-top:1px solid #FFFFFF}
+#sidebar1 .widget_tag_cloud{padding-bottom:0.3em; background-color:#e5e5d9;border-bottom:1px solid #FFFFFF;}
+
+#sidebar1 table{width:100%;background-color:#e5e5d9; border-bottom:1px solid #FFFFFF}
+#sidebar1 caption{background-color:#e5e5d9}
+table td{text-align:center;}
+
+#sidebar2{background-color:#FFFFFF; padding-left:1.6em; padding-top:0.2em;}
+#sidebar2 h2{color: #003366; font-size:100%; font-weight:bold; height:1.8em; margin-bottom:0em;}
+#sidebar2 a{color:#003366; text-decoration:none; padding-top:0.5em;}
+#sidebar2 ul{list-style-type:none;}
+#sidebar2 ul li{list-style-type:none; padding-top:0.8em;}
+#sidebar2 ul li ul{font-style:normal;list-style-type:none;}
+#sidebar2 ul li ul li{display:block; padding-top:0em;}
+
+.widget_tag_cloud a{padding:0.1em;}
+
+#sidebar2 table{background-color:#e5eaef;width:100%;}
+#sidebar2 td{background-color:#CCD6E0;}
+#sidebar2 td.pad {background-color:#e5eaef !important;}
+#sidebar2 td#prev {background-color:#e5eaef !important;}
+#sidebar2 caption{background-color:#e5eaef;}
+
+#line{width:100%;border-top:1px solid #CCD6E0;}
+
+/**************** Blog Entry *********************/
+#bloginfo{padding-left:0.8em; padding-right:0.8em;}
+#blogtitle{}
+#blogslogan{text-align:left;}
+#blog {float:left; padding-left:1.6em; width:95%;}
+.post_header{padding-left:0.8em; padding-right:0.8em; margin-bottom:1em;}
+.post_body{padding-left:0.8em; padding-right:0.8em;}
+.post_body ul{padding-left:1.6em;}
+.post_title{float:left; padding-top: 2em; }
+.post_title > h3 { margin-bottom: 0.5em;}
+.entry h2{font-weight:bold; color:#003366; padding-top:1em; text-align:left;}
+.entry h3 a{text-decoration:none; color:#003366;}
+.tags {padding-bottom:0.4em; padding-top:0.2em; }
+.entry p{padding-bottom:0.3em; margin-bottom:0.5em;}
+.post{text-align:left;}
+.meta {padding-left:0.8em; padding-right:0.8em; padding-top:0.4em; color:#000000; margin-top:1em;}
+h2.search {color:#000000; text-align:center;}
+
+/**************** Comments *********************/
+#comments {font-weight:lighter; padding-left:0.8em; padding-top:10px; border-top:1px solid #000000; margin-top:10px;}
+.commentlist{padding-left:2.8em; padding-right:0.8em;}
+.commentlist p{padding-top:0.4em;}
+.comment{padding-bottom:0.5em;}
+.comment p{margin-bottom:0.2em;}
+#author, #email, #url {width:12em; color:#000000;font-weight:bold;padding:3px; margin-right:5px; border:1px solid #000000;}
+#submit{font:bold 0.8em Verdana;margin-bottom:15px;margin-top:5px;padding:2px;}
+#respond{padding-top:2.5em; padding-left:1.6em; padding-bottom:1em; padding-right:0.8em;font-weight:lighter;}
+#comment{width:100%;border:1px solid #000000 ;color:#000000;}
+#commentform h2 {font-weight:normal;}
+.recentcomments {padding-bottom: 0.4em;padding-left:2em;}
+
+/**************** General *********************/
+
+a {color:#003366; text-decoration:none;}
+a:hover {color:#003366; text-decoration: none;}
+a:visited {color:#003366; text-decoration:none;}
+
+
+/* Headings 
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #111; }
+
+h1 {}
+h2 { font-size: 155%; }
+h3 { font-size: 140%; line-height: 1; margin-bottom: 1em; }
+h4 { font-size: 125%; line-height: 1.25; margin-bottom: 1.25em; }
+h5 { font-size: 115%; margin-bottom: 1.5em; }
+h6 { font-size: 100%; }
+
+h1 img, h2 img, h3 img,
+h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p           { margin: 0 0 1.5em; }
+
+blockquote  { margin: 1.5em; color: #666; font-style: italic; }
+strong,dfn	{ font-weight: bold; }
+em,dfn      { font-style: italic; }
+sup, sub    { line-height: 0; }
+
+abbr,
+acronym     { border-bottom: 1px dotted #666; }
+address     { margin: 0 0 1.5em; font-style: italic; }
+del         { color:#666; }
+
+pre         { margin: 1.5em 0; white-space: pre; }
+pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
+hr {color:#b2c1d1;}
+
+
+/* Misc classes
+-------------------------------------------------------------- */
+
+.small      {
+    font-size: .8em;
+    margin-bottom: 1.875em; 
+    line-height: 1.875em;
+    color: #76797C;
+}
+
+.large      {
+    font-size: 1.2em;
+    line-height: 2.5em;
+    margin-bottom: 1.25em;
+}
+
+.hide       { display: none; }
+
+.quiet      { color: #666; }
+.loud       { color: #000; }
+.highlight  { background:#ff0; }
+.added      { background:#060; color: #fff; }
+.removed    { background:#900; color: #fff; }
+
+.first      { margin-left:0; padding-left:0; }
+.last       { margin-right:0; padding-right:0; }
+.top        { margin-top:0; padding-top:0; }
+.bottom     { margin-bottom:0; padding-bottom:0; }
+
+
+
+/**************** Footer *********************/
+#footer {clear:all; height:2.5em; margin-top:1.5em; background-color: #FFFFFF; border-top:1px solid #CCD6E0; text-align:center;padding-top:0.5em;}
+#footer a{color:#003366;}
+#footer ul{list-style-type:none;}
+#footer ul li{display:inline; padding-left:1em;padding-right:1em;}
+#footer ul li ul li{padding-left:1em;padding-right:1em;}
+#footer-left{float:left;width:19%;}
+#footer-right{float:right;width:81%;font-size:90%;}
+#footer .widgettitle{visibility:hidden;display:none;}
+#footer img{width:17px;height:17px;}
+
+.unsichtbar{visibility:hidden;}
+.facebook{background: url("images/facebook.png") no-repeat center;}
+.facebook:hover{background: url("images/facebook-f.png") no-repeat center;}
+.twitter{background: url("images/twitter.png") no-repeat center;}
+.twitter:hover{background: url("images/twitter-f.png") no-repeat center;}
+.youtube{background: url("images/youtube.png") no-repeat center;}
+.youtube:hover{background: url("images/youtube-f.png") no-repeat center;}
+.itunes{background: url("images/itunes.png") no-repeat center;}
+.itunes:hover{background: url("images/itunes-f.png") no-repeat center;}
+.rss{background: url("images/rss.png") no-repeat center;}
+.rss:hover{background: url("images/rss-f.png") no-repeat center;}

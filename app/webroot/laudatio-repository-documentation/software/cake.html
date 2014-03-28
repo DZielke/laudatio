@@ -1,0 +1,354 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+
+    <title>Graphical User Interface with CakePHP &mdash; laudatio-repository-documentation 0.1.1 documentation</title>
+<!-- RTD <head> -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="/media/javascript/underscore.js"></script>
+<script type="text/javascript" src="/media/javascript/doctools.js"></script>
+<script type="text/javascript" src="/media/javascript/searchtools.js"></script>
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+
+  <script type="text/javascript">
+    var doc_version = "latest";
+    var doc_slug = "laudatio-repository-documentation";
+  </script>
+  <script type="text/javascript" src="/media/javascript/rtd.js"></script>
+<!-- end RTD <head> -->
+
+    
+    <link rel="stylesheet" href="../_static/rtd.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <link rel="top" title="laudatio-repository-documentation 0.1.1 documentation" href="../index.html" />
+    <link rel="next" title="ElasticSearch" href="elasticsearch.html" />
+    <link rel="prev" title="Structure from used LAUDATIO Graphical user interfaces (GUI)" href="../structure/structure.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="elasticsearch.html" title="ElasticSearch"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../structure/structure.html" title="Structure from used LAUDATIO Graphical user interfaces (GUI)"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">laudatio-repository-documentation 0.1.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="graphical-user-interface-with-cakephp">
+<h1>Graphical User Interface with CakePHP<a class="headerlink" href="#graphical-user-interface-with-cakephp" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>Laudatio-Repository uses <a class="reference external" href="http://book.cakephp.org/2.0/en/installation.html">CakePHP 2.0</a>, a PHP MVC framework.</p>
+</div>
+<div class="section" id="model-controller">
+<h2>Model/Controller<a class="headerlink" href="#model-controller" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="xmlobject">
+<h3>XMLObject<a class="headerlink" href="#xmlobject" title="Permalink to this headline">¶</a></h3>
+<p>This is the main model of the laudatio-repository website. It represents the teiHeader by providing methods to manage the data stored in <a class="reference internal" href="fedora.html"><em>Fedora Commons</em></a>.</p>
+</div>
+<div class="section" id="user">
+<h3>User<a class="headerlink" href="#user" title="Permalink to this headline">¶</a></h3>
+<p>User, Group, LDAP, CorpusCreator Controllers and Models are used to manage access rights to modify, view or delete corpora.</p>
+</div>
+<div class="section" id="configuration">
+<h3>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h3>
+<p>The Configuration Controller provides methods for the repository administrators. That includes the configuration of the used scheme for uploading corpora, the view configuration, a form to upload new schemes, buttons to reindex all corpora in elasticsearch and to update all handle pids.</p>
+</div>
+</div>
+<div class="section" id="views">
+<h2>Views<a class="headerlink" href="#views" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="view">
+<h3>View<a class="headerlink" href="#view" title="Permalink to this headline">¶</a></h3>
+<p>The presentation of the teiHeader contents is supported by a plugin named <a class="reference external" href="http://ludo.cubicphuse.nl/jquery-treetable">treetable</a>.
+A JSON file is used to map the teiHeader content to fields in that table. (See <a class="reference internal" href="#configuration">Configuration</a>) The plugin was modified to asynchronously load the content of a clicked field from the server.</p>
+</div>
+<div class="section" id="search">
+<h3>Search<a class="headerlink" href="#search" title="Permalink to this headline">¶</a></h3>
+<p>The search view is based on the facetview plugin. See <a class="reference internal" href="elasticsearch.html"><em>ElasticSearch</em></a> for more information.</p>
+</div>
+<div class="section" id="import">
+<h3>Import<a class="headerlink" href="#import" title="Permalink to this headline">¶</a></h3>
+<p>The import view provides a form to upload new coprora that match the active scheme. It is possible to add multiple datastreams to that corpus, to chose the creative commons license and visibility settings for other users.</p>
+</div>
+<div class="section" id="modify">
+<h3>Modify<a class="headerlink" href="#modify" title="Permalink to this headline">¶</a></h3>
+<p>A user that created a corpus can modify it in the modify-view. Users can change the settings specified at import and upload new versions of teiHeaders an datastreams.</p>
+</div>
+</div>
+<div class="section" id="plugins">
+<h2>Plugins<a class="headerlink" href="#plugins" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="elasticsearch">
+<h3>ElasticSearch<a class="headerlink" href="#elasticsearch" title="Permalink to this headline">¶</a></h3>
+<p>We use <a class="reference external" href="http://www.elasticsearch.org/">ElasticSearch</a> to index and search teiHeaders of uploaded corpora. The view of the search is based on <a class="reference external" href="https://github.com/okfn/facetview/">FacetView</a> , that is a pure javascript frontend.
+Users can use the full text search and facets to filter the repository for interesting corpora. See <a class="reference internal" href="elasticsearch.html"><em>ElasticSearch</em></a> for more information.</p>
+</div>
+<div class="section" id="acl">
+<h3>Acl<a class="headerlink" href="#acl" title="Permalink to this headline">¶</a></h3>
+<p>We use the access control list system of Cakephp via the <a class="reference external" href="http://www.alaxos.net/blaxos/pages/view/plugin_acl">Alaxos ACL Plugin</a>. It provides an interface to configure the rights managed through ACL.</p>
+</div>
+<div class="section" id="licensechooser">
+<h3>LicenseChooser<a class="headerlink" href="#licensechooser" title="Permalink to this headline">¶</a></h3>
+<p>We use the <a class="reference external" href="wiki.creativecommons.org/Jswidget">LicenseChooser Widget</a> to select and display the license of the corpora. The license chosen by the user is stored in <a class="reference internal" href="fedora.html"><em>Fedora Commons</em></a>.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+
+
+
+    <h3>Project Versions</h3>
+    <ul id="sidebar_versions">
+
+  <li><a href="http://rtd.cms.hu-berlin.de/docs/laudatio-repository-documentation/en/latest/">latest</a></li>
+
+    </ul>
+
+<div id="searchbox" style="">
+  <h3>RTD Search</h3>
+    <form class="search" action="http://rtd.cms.hu-berlin.de/search/project/" method="get">
+      <input type="text" name="q" size="18">
+      <input type="submit" value="Go">
+      <input type="hidden" name="selected_facets" value="project:Laudatio repository documentation">
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+        Full-text doc search.
+    </p>
+</div>
+
+
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Graphical User Interface with CakePHP</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#model-controller">Model/Controller</a><ul>
+<li><a class="reference internal" href="#xmlobject">XMLObject</a></li>
+<li><a class="reference internal" href="#user">User</a></li>
+<li><a class="reference internal" href="#configuration">Configuration</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#views">Views</a><ul>
+<li><a class="reference internal" href="#view">View</a></li>
+<li><a class="reference internal" href="#search">Search</a></li>
+<li><a class="reference internal" href="#import">Import</a></li>
+<li><a class="reference internal" href="#modify">Modify</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#plugins">Plugins</a><ul>
+<li><a class="reference internal" href="#elasticsearch">ElasticSearch</a></li>
+<li><a class="reference internal" href="#acl">Acl</a></li>
+<li><a class="reference internal" href="#licensechooser">LicenseChooser</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../structure/structure.html"
+                        title="previous chapter">Structure from used LAUDATIO Graphical user interfaces (GUI)</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="elasticsearch.html"
+                        title="next chapter">ElasticSearch</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/software/cake.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="elasticsearch.html" title="ElasticSearch"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../structure/structure.html" title="Structure from used LAUDATIO Graphical user interfaces (GUI)"
+             >previous</a> |</li>
+        <li><a href="../index.html">laudatio-repository-documentation 0.1.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+
+    <div class="footer">
+        &copy; Copyright 2013, HU-Berlin.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+ <!-- End original user content -->
+
+
+
+<style type="text/css">
+  .badge {
+    position: fixed;
+    display: block;
+    bottom: 5px;
+    height: 40px;
+    text-indent: -9999em;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+  }
+  #version_menu {
+    position: fixed;
+    display: none;
+    bottom: 11px;
+    right: 166px;
+    list-style-type: none;
+    margin: 0;
+  }
+  .footer_popout:hover #version_menu {
+    display: block;
+  }
+  #version_menu li {
+    display: block;
+    float: right;
+  }
+  #version_menu li a {
+    display: block;
+    padding: 6px 10px 4px 10px;
+    margin: 7px 7px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    height: 20px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #fff;
+    background: #8ca1af url(../images/gradient-light.png) bottom left repeat-x;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 1px 1px #465158;
+    -moz-box-shadow: 0 1px 1px #465158;
+    -webkit-box-shadow: 0 1px 1px #465158;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  #version_menu li a:hover {
+    text-decoration: none;
+    background-color: #697983;
+    box-shadow: 0 1px 0px #465158;
+    -moz-box-shadow: 0 1px 0px #465158;
+    -webkit-box-shadow: 0 1px 0px #465158;
+  }
+  /*
+  .badge.rtd {
+    background: #257597 url(/media//images/badge-rtd.png) top left no-repeat;
+    border: 1px solid #282E32;
+    width: 160px;
+    right: 5px;
+  }
+  */
+  .badge.revsys { background: #465158 url(/media//images/badge-revsys.png) top left no-repeat;
+    border: 1px solid #1C5871;
+    width: 290px;
+    right: 173px;
+  }
+  .badge.revsys-inline-sponsored {
+    position: inherit;
+    margin-left: auto;
+    margin-right: 175px;
+    margin-bottom: 5px;
+    background: #465158 url(/media//images/badge-revsys.png) top left no-repeat;
+    border: 1px solid #1C5871;
+    width: 290px;
+    right: 173px;
+  }
+  .badge.revsys-inline {
+    position: inherit;
+    margin-left: auto;
+    margin-right: 175px;
+    margin-bottom: 5px;
+    background: #465158 url(/media//images/badge-revsys-sm.png) top left no-repeat;
+    border: 1px solid #1C5871;
+    width: 205px;
+    right: 173px;
+  }
+
+.rtd_doc_footer { background-color: #465158;}
+
+</style>
+<div class="rtd_doc_footer">
+  <div class="footer_popout">
+    <a href="http://rtd.cms.hu-berlin.de/projects/laudatio-repository-documentation/?fromdocs=laudatio-repository-documentation" class="badge rtd"> TEST Brought to you by Read the Docs</a>
+    <div class="badge "> Test</div>
+    <ul id="version_menu">
+      
+        <li><a href="http://rtd.cms.hu-berlin.de/docs/laudatio-repository-documentation/en/latest/">latest</a></li>
+      
+    </ul>
+  </div>
+</div>
+<!-- RTD Analytics Code -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17997319-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+  </body>
+</html>

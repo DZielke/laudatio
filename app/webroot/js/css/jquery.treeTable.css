@@ -1,0 +1,257 @@
+/* jQuery treeTable stylesheet
+ *
+ * This file contains styles that are used to display the tree table. Each tree
+ * table is assigned the +treeTable+ class.
+ * ========================================================================= */
+
+/* jquery.treeTable.collapsible
+ * ------------------------------------------------------------------------- */
+/*
+.treeTable a.expandAllFromHere{
+	text-decoration:none;
+	font-size:0.8em;
+	font-weight:normal;
+	color:black;
+}
+*/
+/*
+.treeTable a.expandAllFromHere:hover{
+    text-decoration:underline;
+    font-size:0.8em;
+    font-weight:normal;
+    color:black;
+}
+*/
+
+.treeTable tr td span.pdf {
+    float:right;
+}
+
+.treeTable tr td span.pdf img.a{
+    cursor: pointer;
+    visibility:visible;
+}
+
+.treeTable tr td span.pdf a{
+    visibility:visible;
+    background-position: 95%;
+    background-repeat: no-repeat;
+}
+
+.treeTable tr td span.pdf p{
+    display:none;
+    padding:2px 3px;
+    margin:-4px 0px 0px -180px;
+    width:160px;
+    font-weight:normal;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
+    z-index: 2;
+
+}
+
+
+
+.treeTable tr:nth-child(n+3){
+	background-color:#eee;
+}
+.treeTable tr td{
+	cursor: default;
+    padding: 11px;
+    border-bottom-color: #CCD8E7;
+}
+
+.treeTable tr.collapsed td{
+    border-bottom-color: #EEEEEE;
+}
+
+.treeTable tr td .expander {
+  cursor: pointer;
+  padding: 0;
+  zoom: 1; /* IE7 Hack */
+}
+
+.treeTable tr td a.expander {
+  background-position: left center;
+  background-repeat: no-repeat;
+  color: #000;
+  text-decoration: none;
+}
+
+.treeTable tr.collapsed td a.expander {
+     background-image: url(../img/right.png);
+ }
+/*
+.loading tr.collapsed td a.expander {
+    background-image: url(../img/loading.gif);
+}
+*/
+
+.treeTable tr.expanded td a.expander {
+  background-image: url(../img/bottom.png);
+}
+
+.treeTable tr.collapsed{
+	background-color:#CCD8E7;
+}
+
+/*
+.loading td.collapsed{
+    padding:70px 30px;
+}
+*/
+
+/* jquery.treeTable.sortable
+ * ------------------------------------------------------------------------- */
+.treeTable tr.selected, .treeTable tr.accept {
+  background-color: #3875d7;
+}
+
+.treeTable tr.selected a.expander, .treeTable tr.accept a.expander {
+  color: #fff;
+}
+
+.treeTable tr.collapsed.selected td a.expander, .treeTable tr.collapsed.accept td a.expander {
+  background-image: url(../img/right.png);
+}
+
+.treeTable tr.expanded.selected td a.expander, .treeTable tr.expanded.accept td a.expander {
+  background-image: url(../img/bottom.png);
+}
+
+.treeTable .ui-draggable-dragging {
+  color: #000;
+  z-index: 1;
+}
+
+/* Layout helper taken from jQuery UI. This way I don't have to require the
+ * full jQuery UI CSS to be loaded. */
+.ui-helper-hidden { display: none; }
+
+.expandAllFromHere.hidden{
+	display: none;
+}
+
+
+.loading {
+    visibility:visible;
+    background: url(../img/ajax-loader.gif) ;
+    background-position: 93%;
+    background-repeat: no-repeat;
+}
+
+span.helptooltip{
+		float:right;
+}
+/*
+.pdf {
+    visibility:visible;
+    background: url(../img/pdf_icon.png) ;
+    background-position: 98%;
+    background-repeat: no-repeat;
+    padding:2px 3px;
+}
+*/
+/*
+.pdf img{
+    position:absolute;
+    margin-left: -10%;
+    margin-top: -0.8%;
+}
+*/
+
+.pdf img{
+    position:absolute;
+    /*padding:2px 3px;*/
+    /*margin:-4px 0px 0px -10px;*/
+    margin-left: -50px;
+    margin-top: -15%;
+}
+
+.pdf div{
+    position:absolute;
+    /*padding:2px 3px;*/
+    /*margin:-4px 0px 0px -10px;*/
+    margin-left: -7%;;
+    margin-top: 0%;
+}
+
+.pdf img:hover {
+    -webkit-box-shadow: 1px 1px 1px #003d4c;
+    box-shadow: 1px 1px 1px #003d4c;
+}
+
+/*
+#footer_no_logos:hover{
+    -webkit-box-shadow: 1px 1px 1px #003d4c;
+    box-shadow: 1px 1px 1px #003d4c;
+}
+*/
+/*
+.pdf p{
+    display:none;
+    padding:2px 3px;
+    margin:-4px 0px 0px -180px;
+    width:160px;
+    font-weight:normal;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
+    z-index: 2;
+}
+*/
+
+
+.pdf:hover p{
+    display:inline;
+    position:absolute;
+    border:1px solid #cccccc;
+    background:#ffffff;
+    color:#6c6c6c;
+}
+
+/*
+.treeTable tr td span a.img{
+    text-decoration:none;
+    font-size:0.8em;
+    margin-right:5px;
+    padding-left:35px;
+    font-weight:normal;
+    color:black;
+}
+*/
+
+span.helptooltip img{
+	position:absolute;
+	margin:-2px 0px 0px -10px;
+}
+span.helptooltip p{
+	display:none; 
+	padding:2px 3px; 
+	margin:-4px 0px 0px -180px;
+	width:160px;
+	font-weight:normal;
+	border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
+	z-index: 2;
+	
+}
+
+span.helptooltip:hover p{
+	display:inline; 
+	position:absolute; 
+	border:1px solid #cccccc; 
+	background:#ffffff; 
+	color:#6c6c6c;
+}
+
+li.link:hover{
+    text-decoration: underline;
+    cursor: pointer; cursor: hand;
+}
+
+li.link{
+    margin:0;
+}

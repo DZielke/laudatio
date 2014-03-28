@@ -1,0 +1,192 @@
+#facetview_freetext{
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    height: 100%;
+}
+#facetview_filters h3{
+    margin:5px 0 20px 0;
+}
+#facetview_advanced{
+    float:left;
+    clear:left;
+    margin:10px;
+    padding:3px 5px 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #a1a1a1;
+    color:#a1a1a1;
+    overflow:hidden;
+    width:165px;
+}
+#facetview_advanced select{
+    width:160px;
+    background:#fff;
+    border:1px solid #a1a1a1;
+    color:#a1a1a1;
+    font-size:11px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+#facetview_visualisation{
+    border:1px solid #ccc;
+    margin:10px 0 10px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.facetview_rangecontainer{
+    border:1px solid #ccc; 
+    padding:5px; 
+    margin-bottom:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.node{
+    cursor:pointer;
+}
+.facetview_filterchoice{
+    text-decoration:none;
+    color:#373737;
+}
+.facetview_filterselected{
+}
+.facetview_facetlogic{
+}
+.facetview_freetext_filterdiv{
+    float:left;
+    clear:both;
+    background:#eee;
+    padding:0;
+    color:green;
+    width:100%;
+}
+.facetview_advancedshow{
+    text-decoration:none;
+    color:#a1a1a1;
+}
+
+.facetview_resultactions a{
+    color:#353535;
+    font-weight:bold;
+    text-decoration:none;
+    margin:0 5px 0 5px;
+}
+
+.facet-view-simple{
+    width:800px;
+    /*height:600px;*/
+    height: 100%;
+    margin:10px auto 0 0;
+}
+
+span.filtertyp table{
+	margin-left:10px;
+	margin-bottom:10px;
+}
+/*
+span.helptooltip img{
+	margin-left:0px;
+	margin-bottom:10px;
+}
+*/
+
+#facetview_filters h4{
+	font-size:small;
+	margin:5px 0px 10px 0px;
+}
+
+
+span.facetview_tooltip img{
+	position:absolute;
+	margin:8px 0px 0px 182px;
+	padding:1px;
+	width:15px;
+}
+span.facetview_tooltip p{
+	display:none; 
+	padding:2px 3px; 
+	margin:-4px 0px 0px 50px;
+	width:160px;
+	font-weight:normal;
+	border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
+	z-index: 2;
+	
+}
+
+span.facetview_tooltip:hover p{
+	display:inline; 
+	position:absolute; 
+	border:1px solid #888;
+	box-shadow:4px 4px 4px #666;
+	background:#ffffff; 
+	color:#6c6c6c;
+}
+
+span.filtertype_tooltip img{
+	position:relative;
+	width:17px;
+	margin:0px 0px 0px 7px;
+	padding: 0px;
+}
+
+#facetview i.icon_tooltip p{
+	display:none; 
+	padding:2px 3px; 
+	margin:-27px 0px 0px -150px;
+	width:180px;
+	font-weight:normal;
+	border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
+	z-index: 2;
+}
+
+
+#facetview i.icon_tooltip:hover p{
+	display:inline; 
+	position:absolute; 
+	border:1px solid #888;
+	box-shadow:4px 4px 4px #666;
+	background:#ffffff; 
+	color:#6c6c6c;
+}
+
+.facet_tooltip{
+	
+}
+
+#facetview form.form_link{
+	margin:0px;
+}
+
+#facetview li.subfacet{
+	list-style-type:none;
+	margin-left:-5px;
+}
+
+#facetview li.document_selected form a{
+    color: #000000;
+    font-weight: bold;
+	/*text-shadow: 0 0 10px #fff,
+                   0 0 20px #fff,
+                   0 0 30px #fff,
+                   0 0 40px #00bbff
+                   0 0 70px #00bbff,
+                   0 0 80px #00bbff,
+                   0 0 100px #00bbff,
+                   0 0 150px #00bbff;*/
+}
+
+.hide_facetitem {
+    display:none;
+}
+
+.show_facetitem {
+    display:list-item;
+}

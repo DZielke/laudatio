@@ -1,0 +1,22 @@
+input[type=text].valerror{
+	background:#FFD0D0;
+	border:1px solid #D64040;
+	border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+}
+
+span.errortooltip  {
+	display:inline; 
+	position:absolute;  
+	background:#ffffff; 
+	color:#6c6c6c;
+	padding:2px 3px; 
+	margin-left:8px;
+	margin-top:-10px;
+	width:200px;
+	font-weight:normal;
+	border: 1px solid #555555;
+    border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px 0px;
+}
