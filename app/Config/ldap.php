@@ -14,5 +14,5 @@
         $config['LDAP']['LdapACL']['Model'] = 'Idbroker.LdapAcl';
         $config['LDAP']['LdapACL']['groupType'] = 'group';
         $config['LDAP']['groupType'] = 'groupofuniquenames'; //What object class do you use for your groups?
-        $config['LDAP']['Group']['behavior']['tree']['parent_id'] = '49db8df1-5e74-4e91-b15f-4d33e927f14e'; //Are you using a tree behavior?  Need to set the default parent_id?
+        $config['LDAP']['Group']['behavior']['tree']['parent_id'] = 'XXX'; //Are you using a tree behavior?  Need to set the default parent_id?
 ?>
