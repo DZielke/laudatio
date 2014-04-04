@@ -20,20 +20,20 @@ Used software tools
   --------------
   Version 3.6
   
-  - <b>Installation</b><br>
+  <b>Installation</b><br>
   apt-get install apache2
   apt-get install php5, php5-mysql, php5-gd, php5-curl, php5-xsl
   apt-get install mysql-server
   apt-get install tomcat6
   apt-get install imagemagick
   
-  - <b>Requirements</b><br>
+  <b>Requirements</b><br>
   Download Java JDK 6
   http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u27-download-440405.html
   Installing Java JDK 6
   Changing Enviroment Variables FEDORA_HOME - C:fedora PATH - %FEDORA_HOME%serverbin;%FEDORA_HOME%clientbin;%JAVA_HOME%bin
 
-  - <b>Firewall settings</b><br>
+  <b>Firewall settings</b><br>
   ufw default deny
   ufw allow ssh
   ufw status
@@ -44,7 +44,7 @@ Used software tools
   Please follow the instructions of custom installation
   ...
   
-  -<b>MySQL database</b><br>
+  <b>MySQL database</b><br>
   Please note that the MySQL JDBC driver provided by the installer requires MySQL v3.23.x or higher.
   The MySQL commands listed below can be run within the mysql program, which may be invoked as follows:
   mysql -u root -p
@@ -55,7 +55,7 @@ Used software tools
   GRANT ALL ON fedora3.* TO XXX@’%’ IDENTIFIED BY ‘XXX’;
   
   
-  - REST-API
+  <b>REST-API</b><br>
   We use fedoras REST API via CURL requests to store and access the teiHeaders and some other Files. 
   Additionally fedora can be administrated via the Fedora Web Administrator e.g. at http://localhost:8080/fedora/admin/.
   Further information you can find here:
@@ -89,13 +89,13 @@ Used software tools
   
   Installationdetails can you find here:
 
-  API 
+  <b>API</b><br> 
   The elastic search API is online available at http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/index.html
 
-  Testing with elasticsearch HEAD
+  <b>Testing with elasticsearch HEAD</b><br>
   elasticsearch HEAD tool is online available at https://github.com/mobz/elasticsearch-head. It’s a web front end for browsing and interacting with elasticsearch.
 
-  Indexing
+  <b>Indexing</b><br>
   The teiHeaders are xml files, but ealasticsearch uses JSON as data format. We use Java Bridge, a tomcat webapp, to convert the xml files to json.
   The Java Bridge uses the XSLT Processor `SAXON <http://saxon.sourceforge.net/>’_ to convert the xml files. The xsl-file is located at /var/www/xsltjson/conf/. 
   Further details to indexing and mapping find here:
@@ -104,7 +104,7 @@ Used software tools
   PID-system (handle)
   -------------------
   
-  API
+  <b>API</b><br>
   We are used the API provided by EUROPEAN Persistent Identifier Consortium (EPIC) in Version 2.
   Download and Installation details are here:
   https://github.com/CatchPlus/EPIC-API-v2/wiki/Core-API
