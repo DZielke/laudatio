@@ -20,20 +20,20 @@ Used software tools
   --------------
   Version 3.6
   
-  - Installation
+  - <b>Installation</b><br>
   apt-get install apache2
   apt-get install php5, php5-mysql, php5-gd, php5-curl, php5-xsl
   apt-get install mysql-server
   apt-get install tomcat6
   apt-get install imagemagick
   
-  - Requirements
+  - <b>Requirements</b><br>
   Download Java JDK 6
   http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u27-download-440405.html
   Installing Java JDK 6
   Changing Enviroment Variables FEDORA_HOME - C:fedora PATH - %FEDORA_HOME%serverbin;%FEDORA_HOME%clientbin;%JAVA_HOME%bin
 
-  - Firewall settings
+  - <b>Firewall settings</b><br>
   ufw default deny
   ufw allow ssh
   ufw status
@@ -44,7 +44,7 @@ Used software tools
   Please follow the instructions of custom installation
   ...
   
-  -MySQL database
+  -<b>MySQL database</b><br>
   Please note that the MySQL JDBC driver provided by the installer requires MySQL v3.23.x or higher.
   The MySQL commands listed below can be run within the mysql program, which may be invoked as follows:
   mysql -u root -p
