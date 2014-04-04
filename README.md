@@ -66,8 +66,8 @@ Used software tools
   Graphical User Interface with CakePHP
   -------------------------------------
   
-    We are use CakePHP, a PHP MVC Framework, in Version 2.4.5
-    For Installation- and requirementdetails see here:
+    We are using CakePHP, a PHP MVC Framework, in Version 2.4.5
+    For installation details see:
     http://book.cakephp.org/2.0/en/installation.html
     
     Model/Controller
@@ -86,16 +86,16 @@ Used software tools
   -------------
   Version 0.9
   
-  Installationdetails can you find here:
+  Installation details can be found here:
 
   <b>API</b><br> 
-  The elastic search API is online available at http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/index.html
+  The ElasticSearch API is online available at http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/index.html
 
-  <b>Testing with elasticsearch HEAD</b><br>
-  elasticsearch HEAD tool is online available at https://github.com/mobz/elasticsearch-head. It’s a web front end for browsing and interacting with elasticsearch.
+  <b>Testing with ElasticSearch HEAD</b><br>
+  ElasticSearch HEAD tool is online available at https://github.com/mobz/elasticsearch-head. It’s a web front end for browsing and interacting with ElasticSearch.
 
   <b>Indexing</b><br>
-  The teiHeaders are xml files, but ealasticsearch uses JSON as data format. We use Java Bridge, a tomcat webapp, to convert the xml files to json.
+  The teiHeaders are xml files, but ElasticSearch uses JSON as data format. We use Java Bridge, a tomcat webapp, to convert the xml files to json.
   The Java Bridge uses the XSLT Processor `SAXON <http://saxon.sourceforge.net/>’_ to convert the xml files. The xsl-file is located at /var/www/xsltjson/conf/. 
   Further details to indexing and mapping find here:
   http://www.laudatio-repository.org/repository/technical-documentation/software/elasticsearch.html
