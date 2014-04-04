@@ -63,6 +63,14 @@ jQuery Timetabs v1
 
 =========================================================================
 
+jquery.facetview.js
+ 
+https://github.com/okfn/facetview
+
+Copyright 2011 Open Knowledge Foundation and Cottage Labs.
+Licensed under the MIT License
+=========================================================================
+
 hoverIntent.js
 http://cherne.net/brian/resources/jquery.hoverIntent.html
 
