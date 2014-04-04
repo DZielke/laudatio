@@ -69,16 +69,16 @@ Used software tools
   For installation details see:
   http://book.cakephp.org/2.0/en/installation.html
     
-    Model/Controller
+  Model/Controller
   
-    <b>XMLObject</b><br>
-    This is the main model of the laudatio-repository website. It represents the teiHeader by providing methods to manage the data stored in Fedora Commons.
+  <b>XMLObject</b><br>
+  This is the main model of the laudatio-repository website. It represents the teiHeader by providing methods to manage the data stored in Fedora Commons.
     
-    <b>User</b><br>
-    User, Group, LDAP, CorpusCreator Controllers and Models are used to manage access rights to modify, view or delete corpora.
+  <b>User</b><br>
+  User, Group, LDAP, CorpusCreator Controllers and Models are used to manage access rights to modify, view or delete corpora.
     
-    <b>Configuration</b><br>
-    The Configuration Controller provides methods for the repository administrators. That includes the configuration of the used scheme for uploading corpora, the view configuration, a form to upload new schemes, buttons to reindex all corpora in elasticsearch and to update all handle pids.
+  <b>Configuration</b><br>
+  The Configuration Controller provides methods for the repository administrators. That includes the configuration of the used scheme for uploading corpora, the view configuration, a form to upload new schemes, buttons to reindex all corpora in elasticsearch and to update all handle pids.
 
 
   ElasticSearch
