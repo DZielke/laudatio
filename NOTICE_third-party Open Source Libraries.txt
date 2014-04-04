@@ -1,0 +1,125 @@
+NOTICE
+LAUDATIO Repository uses numerous third-party Open Source Libraries. You always can find the most recent and complete list of libraries in the NOTICE (https://github.com/DZielke/laudatio) file of our corresponding Github Repository.
+LAUDATIO Repository
+Copyright 2013-2014 Computer and media service from Humboldt-Universität zu Berlin ("CMS")
+Development: Dennis Zielke (zielkede@cms.hu-berlin.de)
+	       Tino Schernickau (tino.schernickau@web.de)	
+
+
+Third party dependencies:
+
+=========================================================================
+
+Lucene
+
+http://lucene.apache.org/
+
+Developed by The Apache Software Foundation.
+License: Apache License v2 (http://www.apache.org/licenses)
+
+=========================================================================
+
+Elasticsearch
+
+http://www.elasticsearch.org/
+
+developed by Elasticsearch and Shay Banon.
+License: Apache License v2 (http://www.apache.org/licenses)
+
+=========================================================================
+
+elasticsearch-head
+
+https://github.com/mobz/elasticsearch-head
+
+developed by Ben Birch (http://mobz.org/).
+License: Apache License v2 (http://www.apache.org/licenses)
+
+=========================================================================
+
+jQuery
+Copyright 2012 jQuery Foundation and other contributors
+
+http://jquery.com
+License: MIT License, http://jquery.org/license/
+
+=========================================================================
+
+treetable.js
+
+http://ludo.cubicphuse.nl/jquery-treetable
+Copyright (c) 2013 Ludo van den Boom, http://ludovandenboom.com
+License: MIT, GPLv2
+
+=========================================================================
+
+jQuery Timetabs v1
+ http://www.tn34.de
+ Authors: Mario Alves (Javascript), David Hestler (Markup)
+ 
+ Copyright 2010, TN34.DE
+ Released under the GPL license.
+ http://www.gnu.org/licenses/gpl-2.0.html
+
+=========================================================================
+
+hoverIntent.js
+http://cherne.net/brian/resources/jquery.hoverIntent.html
+
+Copyright 2011 Brian Cherne
+modified by the jQuery UI team
+
+=========================================================================
+
+jQuery UI - v1.10.3
+http://jqueryui.com
+
+Includes: jquery.ui.core.js, jquery.ui.widget.js, jquery.ui.mouse.js, jquery.ui.draggable.js, jquery.ui.droppable.js, jquery.ui.resizable.js, jquery.ui.selectable.js, jquery.ui.sortable.js, jquery.ui.effect.js, jquery.ui.accordion.js, jquery.ui.autocomplete.js, jquery.ui.button.js, jquery.ui.datepicker.js, jquery.ui.dialog.js, jquery.ui.effect-blind.js, jquery.ui.effect-bounce.js, jquery.ui.effect-clip.js, jquery.ui.effect-drop.js, jquery.ui.effect-explode.js, jquery.ui.effect-fade.js, jquery.ui.effect-fold.js, jquery.ui.effect-highlight.js, jquery.ui.effect-pulsate.js, jquery.ui.effect-scale.js, jquery.ui.effect-shake.js, jquery.ui.effect-slide.js, jquery.ui.effect-transfer.js, jquery.ui.menu.js, jquery.ui.position.js, jquery.ui.progressbar.js, jquery.ui.slider.js, jquery.ui.spinner.js, jquery.ui.tabs.js, jquery.ui.tooltip.js
+ 
+Copyright 2013 jQuery Foundation and other contributors; Licensed MIT
+=========================================================================
+
+Bootstrap
+
+https://getbootstrap.com
+
+Copyright 2012 Twitter, Inc.
+License: Apache License v2 (http://www.apache.org/licenses)
+
+=========================================================================
+
+Java Bridge
+
+http://php-java-bridge.sourceforge.net/pjb/
+
+developed by FoundationDB (http://www.foundationdb.com/)
+License: Apache License v2 (http://www.apache.org/licenses)
+
+=========================================================================
+
+  Version 2.0, in this case for the Apache Xalan Java distribution.  ==
+   =========================================================================
+
+   Apache Xalan (Xalan XSLT processor)
+   Copyright 1999-2006 The Apache Software Foundation
+
+   This product includes software developed at
+   The Apache Software Foundation (http://www.apache.org/).
+
+   =========================================================================
+
+   Apache Xerces Java
+   Copyright 1999-2006 The Apache Software Foundation
+
+   This product includes software developed at
+   The Apache Software Foundation (http://www.apache.org/).
+
+   Portions of Apache Xerces Java in xercesImpl.jar and xml-apis.jar
+   were originally based on the following:
+     - software copyright (c) 1999, IBM Corporation., http://www.ibm.com.
+     - software copyright (c) 1999, Sun Microsystems., http://www.sun.com.
+     - voluntary contributions made by Paul Eng on behalf of the
+       Apache Software Foundation that were originally developed at iClick, Inc.,
+       software copyright (c) 1999.
+
+
