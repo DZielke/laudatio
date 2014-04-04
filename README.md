@@ -76,7 +76,7 @@ Used software tools
     XMLObject
     This is the main model of the laudatio-repository website. It represents the teiHeader by providing methods to manage the data stored in Fedora Commons.
     
-    User
+    <b>User</b>
     User, Group, LDAP, CorpusCreator Controllers and Models are used to manage access rights to modify, view or delete corpora.
     
     Configuration
