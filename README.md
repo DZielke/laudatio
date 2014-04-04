@@ -11,6 +11,9 @@ Copyright: © 2014 Computer- and Media Service, Humboldt-Universität zu Berlin
 This software tool is modular and represents a technical repository infrastructure for particular sub-discipline of linguistics (historical corpus linguistics). The modules of the repository corresponding to the application functions 
 presentation, storage, indexing and retrieval, as well as the management of Persistent Identifiers (PID). 
 
+The LAUDATIO-Repository runs under:
+http://www.laudatio-repository.org
+
 Used software tools
 ===================
   Fedora Commons
