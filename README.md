@@ -65,10 +65,9 @@ Used software tools
 
   Graphical User Interface with CakePHP
   -------------------------------------
-  
-    We are using CakePHP, a PHP MVC Framework, in Version 2.4.5
-    For installation details see:
-    http://book.cakephp.org/2.0/en/installation.html
+  We are using CakePHP, a PHP MVC Framework, in Version 2.4.5
+  For installation details see:
+  http://book.cakephp.org/2.0/en/installation.html
     
     Model/Controller
   
