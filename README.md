@@ -73,7 +73,7 @@ Used software tools
     
     Model/Controller
     ----------------
-    XMLObject
+    <b>XMLObject</b><br>
     This is the main model of the laudatio-repository website. It represents the teiHeader by providing methods to manage the data stored in Fedora Commons.
     
     <b>User</b>
