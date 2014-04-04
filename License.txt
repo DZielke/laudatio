@@ -190,7 +190,7 @@ http://www.apache.org/licenses/
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [2014] [Dennis Zielke Computer- and Media Service Humboldt-Universität zu Berlin]
+   Copyright [2014] [Dennis Zielke Computer- and Media Service Humboldt-Universität zu Berlin, Tino Schernickau Computer- and Media Service Humboldt-Universität zu Berlin]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
