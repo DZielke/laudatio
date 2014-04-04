@@ -65,9 +65,9 @@ Used software tools
   http://www.laudatio-repository.org/repository/technical-documentation/software/fedora.html#files
 
   Graphical User Interface with CakePHP
-  ------------------------------------------
+  -------------------------------------
   
-    We are use CakePHP, a PHP MVC Framework, in Version 2.4.5.
+    We are use CakePHP, a PHP MVC Framework, in Version 2.4.5
     For Installation- and requirementdetails see here:
     http://book.cakephp.org/2.0/en/installation.html
     
