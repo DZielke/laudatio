@@ -5,7 +5,7 @@ Copyright: © 2014 Computer- and Media Service, Humboldt-Universität zu Berlin
   License: Apache Licence 2.0
    Status: Draft
   Version: 1.0
-  Authors: Dennis Zielke, Computer- and Media Service, Humboldt-Universität zu Berlin
+  Authors: Dennis Zielke, Computer- and Media Service, Humboldt-Universität zu Berlin,
            Tino Schernickau, Computer- and Media Service, Humboldt-Universität zu Berlin
 
 This software tool is modular and represents a technical repository infrastructure for particular sub-discipline of linguistics (historical corpus linguistics). The modules of the repository corresponding to the application functions 
