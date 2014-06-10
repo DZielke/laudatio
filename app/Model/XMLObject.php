@@ -1648,7 +1648,7 @@ class XMLObject extends AppModel {
         curl_setopt($ch, CURLOPT_HEADER, 1);
         curl_setopt($ch, CURLOPT_URL, "http://pid.gwdg.de/handles/11022" );
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-        curl_setopt($ch, CURLOPT_USERPWD, '1019-01:XaihahP5');
+        curl_setopt($ch, CURLOPT_USERPWD, 'xxx:xxx');
         curl_setopt($ch, CURLOPT_VERBOSE, 1);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POST, true);
