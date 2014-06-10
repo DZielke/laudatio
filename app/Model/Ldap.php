@@ -65,7 +65,7 @@ class Ldap extends AppModel {
 	}
 
 	function getDn( $attr, $query){
-		$dn = 'uid='.$query.',ou=users,ou=Benutzerverwaltung,ou=Computer- und Medienservice,o=Humboldt-Universitaet zu Berlin,c=DE';
+		$dn = 'uid='.$query.',ou=xxx,ou=xxx,ou=xxx,o=xxxx,c=XX';
 		return $dn;
 	}
 
