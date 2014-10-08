@@ -103,17 +103,17 @@ Used software tools
   -------------------
   
   <b>API</b><br>
-  We are used the API provided by EUROPEAN Persistent Identifier Consortium (EPIC) in Version 2.
+  We are using the API provided by the EUROPEAN Persistent Identifier Consortium (EPIC) in Version 2.
   Download and Installation details are here:
   https://github.com/CatchPlus/EPIC-API-v2/wiki/Core-API
   
-  Handles are created via POST request to http://pid.gwdg.de/handles/11022.
+  Handles are created via POST requests to http://pid.gwdg.de/handles/11022.
   The post data has the following structure:
       [{"type":"URL","parsed_data":"'.$objectURL.'","encoding":"xml"}]
   
   Handle updates require a PUT request to http://pid.gwdg.de/handles/11022/”.$handle with the following data:
       '[{"type":"URL","parsed_data":"'.$objectURL.'"}]'
   
-  For handle deletion a DELETE request to http://pid.gwdg.de/handles/11022/”.$handlePID is sufficient.
+  To handle deletion a DELETE request to http://pid.gwdg.de/handles/11022/”.$handlePID is sufficient.
 
 
