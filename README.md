@@ -98,6 +98,8 @@ Used software tools
   The Java Bridge uses the XSLT Processor `SAXON <http://saxon.sourceforge.net/>’_ to convert the xml files. The xsl-file is located at /var/www/xsltjson/conf/. 
   Further details to indexing and mapping find here:
   http://www.laudatio-repository.org/repository/technical-documentation/software/elasticsearch.html
+  
+  Actually, we use the mapping Version 7 (https://github.com/DZielke/LAUDATIO-IndexMapping/tree/master/Schema7) to map all fields to the string type but the field that are used for range filters and use not analyzed multifields for the facets.
 
   PID-system (handle)
   -------------------
