@@ -8,7 +8,7 @@ Copyright: © 2014 Computer- and Media Service, Humboldt-Universität zu Berlin
   Authors: Dennis Zielke, Computer- and Media Service, Humboldt-Universität zu Berlin,
            Tino Schernickau Computer- and Media Service, Humboldt-Universität zu Berlin
 
-The concept of this repository infrastructure software for a particular sub-discipline of linguistics (historical corpus linguistics) is modular. The modules of the repository correspond to the application features presentation, storage, indexing and retrieval, as well as management of Persistent Identifiers (PID). 
+The concept of this repository infrastructure software for a particular sub-discipline of linguistics (historical corpus linguistics) is modular. The modules of the repository correspond to the application features presentation, storage, indexing and retrieval, as well as management of Persistent Identifier (PID). 
 
 The LAUDATIO-Repository is available here:
 http://www.laudatio-repository.org
